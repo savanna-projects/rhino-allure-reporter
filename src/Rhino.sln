@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".documents", ".documents", "{C0E1E7F0-B9E4-48FF-AAEF-16DD57F5EEB0}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\Home.md = ..\docs\Home.md
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".test", ".test", "{AE60FA89-8EAD-499A-995E-0FACC4C58F94}"
+	ProjectSection(SolutionItems) = preProject
+		..\test\SettingsMsTest.runsettings = ..\test\SettingsMsTest.runsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{7E2C53F8-0912-43EA-AF7D-A586EC3A1BFC}"
+	ProjectSection(SolutionItems) = preProject
+		..\build\AzurePipeline.yml = ..\build\AzurePipeline.yml
+		..\build\AzurePipelineProduction.yml = ..\build\AzurePipelineProduction.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{85F042A1-1FB4-4DAD-8FCA-1837CB019EDF}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporters.Allure", "Reporters.Allure\Reporters.Allure.csproj", "{B3DDB1F2-EFE9-43D3-9F85-F5A5AB8201B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3DDB1F2-EFE9-43D3-9F85-F5A5AB8201B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DDB1F2-EFE9-43D3-9F85-F5A5AB8201B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DDB1F2-EFE9-43D3-9F85-F5A5AB8201B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DDB1F2-EFE9-43D3-9F85-F5A5AB8201B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B08FA6B7-8DFF-48C4-934D-387CE897CAE1}
+	EndGlobalSection
+EndGlobal

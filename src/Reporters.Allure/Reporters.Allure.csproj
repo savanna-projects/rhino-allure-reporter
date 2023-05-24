@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<AssemblyVersion>7.0.0.0</AssemblyVersion>
+		<FileVersion>7.0.0.0</FileVersion>
+		<PackageId>Rhino.Reporters.Allure</PackageId>
+		<LangVersion>latest</LangVersion>
+		<Title>Rhino API - Allure Reporter</Title>
+		<Description>Rhino plugin for creating Allure Report output that can be served and used as a standard Allure Report.</Description>
+		<Authors>Rhino API Community</Authors>
+		<PackageTags>automation,crawling,crawl,selenium,appium,automation testing,automation test,qa,gravity,gravity api,scrapping,scrap</PackageTags>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Rhino.Api" Version="2023.5.21.1" />
+	</ItemGroup>
+
+</Project>
