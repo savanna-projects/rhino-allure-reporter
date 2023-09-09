@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
@@ -15,10 +15,11 @@
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<RootNamespace>Rhino</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Rhino.Api" Version="2023.5.21.1" />
+		<PackageReference Include="Rhino.Api" Version="2023.9.8.1" />
 	</ItemGroup>
 
 </Project>
